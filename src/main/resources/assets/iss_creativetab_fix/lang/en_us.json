@@ -1,0 +1,13 @@
+{
+  "itemGroup.iss_creativetab_fix": "Example Mod Tab",
+  "block.iss_creativetab_fix.example_block": "Example Block",
+  "item.iss_creativetab_fix.example_item": "Example Item",
+
+  "iss_creativetab_fix.configuration.title": "PhiT's ISS CreativeTab Optimize Configs",
+  "iss_creativetab_fix.configuration.section.iss_creativetab_fix.common.toml": "PhiT's ISS CreativeTab Optimize Configs",
+  "iss_creativetab_fix.configuration.section.iss_creativetab_fix.common.toml.title": "PhiT's ISS CreativeTab Optimize Configs",
+  "iss_creativetab_fix.configuration.items": "Item List",
+  "iss_creativetab_fix.configuration.logDirtBlock": "Log Dirt Block",
+  "iss_creativetab_fix.configuration.magicNumberIntroduction": "Magic Number Text",
+  "iss_creativetab_fix.configuration.magicNumber": "Magic Number"
+}
