@@ -5,7 +5,7 @@ loaderVersion="${loader_version_range}" #mandatory
 
 license="${mod_license}"
 
-#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+issueTrackerURL="https://github.com/chumsh/PhiTs-ISS-CreativeTab-Optimize/issues" #optional
 
 [[mods]] #mandatory
 
@@ -19,14 +19,14 @@ displayName="${mod_name}" #mandatory
 
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 
-#logoFile="examplemod.png" #optional
+logoFile="icon.png" #optional
 
 #credits="" #optional
 
-#authors=""
+authors="ChunShui_PhiT"
 
 description='''
-Example mod description.
+The mod modifiers the scroll CreativeTab of Iron's SpellBooks(ISS). Now it looks clearer and more concise when you add a lot of addon of ISS especially
 '''
 
 [[mixins]]
@@ -49,5 +49,18 @@ config="${mod_id}.mixins.json"
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.${mod_id}]]
+modId="fancytabsections"
+type="required"
+versionRange="[6.2-NEOFORGE-1.21.1)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="irons_spellbooks"
+type="required"
+versionRange="[3.16.1)"
+ordering="NONE"
+side="BOTH"
 #[features.${mod_id}]
 #openGLVersion="[3.2,)"

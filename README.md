@@ -11,3 +11,4 @@ Required
 |------------------------------------|
 | Neoforge: 1.21.1-21.1.248 or above |
 | Iron's SpellBooks: 3.16.1 or above |
+
